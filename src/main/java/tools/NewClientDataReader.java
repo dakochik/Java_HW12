@@ -139,6 +139,7 @@ public class NewClientDataReader {
         int numb = readInt(in, out, 1, 20);
         ArrayList<String> res = new ArrayList<>();
 
+        System.out.printf("Now you need to input %s phone numbers", numb);
         for (int i = 0; i < numb; ++i) {
             res.add(sc.nextLine());
         }
